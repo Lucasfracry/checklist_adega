@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkup de Casa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>O que falta em casa?</h1>
+        </header>
+        
+        <main>
+            <ul id="lista-compras">
+                <li>
+                    <label>
+                        <input type="checkbox" value="Arroz"> 
+                        <span>Arroz</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Feijão"> 
+                        <span>Feijão</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Café"> 
+                        <span>Café</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Leite"> 
+                        <span>Leite</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Açúcar"> 
+                        <span>Açúcar</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Papel Higiênico"> 
+                        <span>Papel Higiênico</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Detergente"> 
+                        <span>Detergente</span>
+                    </label>
+                </li>
+            </ul>
+        </main>
+
+        <button onclick="enviarWhatsApp()" class="btn-whatsapp">
+            Enviar lista para o WhatsApp
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
