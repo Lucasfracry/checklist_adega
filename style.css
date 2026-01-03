@@ -1,62 +1,47 @@
-* { box-sizing: border-box; font-family: sans-serif; }
-body { margin: 0; background-color: #f4f7f6; padding-bottom: 80px; }
+* { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { margin: 0; background-color: #f0f2f5; }
 
 .header {
-    background-color: #2196F3;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    background-color: #2196F3; color: white;
+    padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100;
 }
 
-.container { padding: 10px; }
+.grid-categorias {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 15px; padding: 20px;
+}
 
-ul { list-style: none; padding: 0; margin: 0; }
+.grid-categorias button {
+    background: white; border: none; padding: 25px 10px;
+    border-radius: 12px; font-size: 16px; font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: #333;
+}
+
+.btn-voltar {
+    position: absolute; left: 10px; top: 20px;
+    background: none; border: none; color: white; font-size: 18px;
+}
+
+.container { padding: 15px; }
+
+ul { list-style: none; padding: 0; }
 
 li {
-    background: white;
-    margin-bottom: 5px;
-    border-radius: 8px;
+    background: white; margin-bottom: 8px; border-radius: 8px;
+    display: flex; align-items: center; padding: 15px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-label {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    cursor: pointer;
-    font-size: 18px;
-    width: 100%;
-}
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    margin-right: 15px;
-}
+input[type="checkbox"] { width: 22px; height: 22px; margin-right: 15px; }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: white;
-    padding: 15px;
+    position: fixed; bottom: 0; width: 100%;
+    background: white; padding: 15px; text-align: center;
     border-top: 1px solid #ddd;
-    text-align: center;
 }
 
-button {
-    background-color: #25D366; /* Cor do WhatsApp */
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    width: 90%;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.btn-enviar {
+    background-color: #25D366; color: white; border: none;
+    padding: 15px; border-radius: 50px; font-size: 18px;
+    font-weight: bold; width: 90%;
 }
-
-button:active { transform: scale(0.98); }

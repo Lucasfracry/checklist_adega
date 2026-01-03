@@ -8,138 +8,40 @@
 </head>
 <body>
 
-    <div class="header">
-        <h1>Checkup de Compras</h1>
-        <p>Marque o que está faltando:</p>
+    <div id="tela-categorias">
+        <div class="header">
+            <h1>Checkup de Estoque</h1>
+            <p>Escolha o grupo:</p>
+        </div>
+        <div class="grid-categorias">
+            <button onclick="abrirLista('Tabacaria')">🚬 Tabacaria</button>
+            <button onclick="abrirLista('Vinhos')">🍷 Vinhos</button>
+            <button onclick="abrirLista('Cervejas')">🍺 Cervejas</button>
+            <button onclick="abrirLista('Vodka')">🍸 Vodka</button>
+            <button onclick="abrirLista('Whisky')">🥃 Whisky</button>
+            <button onclick="abrirLista('Gin')">🍸 Gin</button>
+            <button onclick="abrirLista('Energeticos')">⚡ Energéticos</button>
+            <button onclick="abrirLista('Refrigerantes')">🥤 Refrigerantes</button>
+            <button onclick="abrirLista('Gelos')">🧊 Gelos</button>
+            <button onclick="abrirLista('Utensilios')">🛠️ Utensílios</button>
+            <button onclick="abrirLista('Cachacas')">🍶 Cachaças</button>
+            <button onclick="abrirLista('Bebidas Mistas')">🍹 Bebidas Mistas</button>
+            <button onclick="abrirLista('Comidas')">🍔 Comidas</button>
+        </div>
     </div>
 
-    <div class="container">
-        <ul id="lista-estoque">
-            <li><label><input type="checkbox" value="Heineken 350ml"> Heineken 350ml</label></li>
-            <li><label><input type="checkbox" value="Heineken 269ml"> Heineken 269ml</label></li>
-            <li><label><input type="checkbox" value="Budweiser 269ml"> Budweiser 269ml</label></li>
-            <li><label><input type="checkbox" value="Stella 269ml"> Stella 269ml</label></li>
-            <li><label><input type="checkbox" value="Original 269ml"> Original 269ml</label></li>
-            <li><label><input type="checkbox" value="Spaten 269ml"> Spaten 269ml</label></li>
-            <li><label><input type="checkbox" value="Imperio 269ml"> Imperio 269ml</label></li>
-            <li><label><input type="checkbox" value="Spaten 350ml"> Spaten 350ml</label></li>
-            <li><label><input type="checkbox" value="Skol 350ml"> Skol 350ml</label></li>
-            <li><label><input type="checkbox" value="Skol 269ml"> Skol 269ml</label></li>
-            <li><label><input type="checkbox" value="Brahama Duplo 350ml"> Brahama Duplo 350ml</label></li>
-            <li><label><input type="checkbox" value="Amstel 269ml"> Amstel 269ml</label></li>
-            
-            <li><label><input type="checkbox" value="Heineken long Neck"> Heineken long Neck</label></li>
-            <li><label><input type="checkbox" value="Spaten Long Neck"> Spaten Long Neck</label></li>
-            <li><label><input type="checkbox" value="Corona Long Neck"> Corona Long Neck</label></li>
-            <li><label><input type="checkbox" value="Stella Long Neck"> Stella Long Neck</label></li>
-            <li><label><input type="checkbox" value="Becks Long Neck"> Becks Long Neck</label></li>
-            <li><label><input type="checkbox" value="Stella S/Gluten Long neck"> Stella S/Gluten Long neck</label></li>
-            <li><label><input type="checkbox" value="Budweiser Long Neck"> Budweiser Long Neck</label></li>
-            <li><label><input type="checkbox" value="Heineken Zero Long Neck"> Heineken Zero Long Neck</label></li>
-            <li><label><input type="checkbox" value="Skol Beats Senses"> Skol Beats Senses</label></li>
-            <li><label><input type="checkbox" value="Skol Beats GT"> Skol Beats GT</label></li>
-            <li><label><input type="checkbox" value="Skol Beats Vermelha"> Skol Beats Vermelha</label></li>
-            <li><label><input type="checkbox" value="Smirnoff Ice"> Smirnoff Ice</label></li>
-            <li><label><input type="checkbox" value="Draft"> Draft</label></li>
-            <li><label><input type="checkbox" value="Eisenbahn Long Neck"> Eisenbahn Long Neck</label></li>
-
-            <li><label><input type="checkbox" value="Heineken 600ml"> Heineken 600ml</label></li>
-            <li><label><input type="checkbox" value="Stella 600ml"> Stella 600ml</label></li>
-            <li><label><input type="checkbox" value="Budweiser 600ml"> Budweiser 600ml</label></li>
-            <li><label><input type="checkbox" value="Spaten 600ml"> Spaten 600ml</label></li>
-            <li><label><input type="checkbox" value="Corona 600ml"> Corona 600ml</label></li>
-            <li><label><input type="checkbox" value="Imperio 600ml"> Imperio 600ml</label></li>
-            <li><label><input type="checkbox" value="Brahma Duplo 600ml"> Brahma Duplo 600ml</label></li>
-
-            <li><label><input type="checkbox" value="Saco de Gelo"> Saco de Gelo</label></li>
-            <li><label><input type="checkbox" value="Gelo de Coco"> Gelo de Coco</label></li>
-            <li><label><input type="checkbox" value="Gelo de Maracujá"> Gelo de Maracujá</label></li>
-            <li><label><input type="checkbox" value="Gelo de Melancia"> Gelo de Melancia</label></li>
-            <li><label><input type="checkbox" value="Copo 700ml"> Copo 700ml</label></li>
-            <li><label><input type="checkbox" value="Copo Americano"> Copo Americano</label></li>
-
-            <li><label><input type="checkbox" value="Red Bull Tradicional"> Red Bull Tradicional</label></li>
-            <li><label><input type="checkbox" value="Red bull Tropical"> Red bull Tropical</label></li>
-            <li><label><input type="checkbox" value="Red bull Melancia"> Red bull Melancia</label></li>
-            <li><label><input type="checkbox" value="Red Bull Zero"> Red Bull Zero</label></li>
-            <li><label><input type="checkbox" value="Monster Mango Loko"> Monster Mango Loko</label></li>
-            <li><label><input type="checkbox" value="Monster Tradicional"> Monster Tradicional</label></li>
-            <li><label><input type="checkbox" value="Monster Zero"> Monster Zero</label></li>
-            <li><label><input type="checkbox" value="Vibe 2 Lts"> Vibe 2 Lts</label></li>
-            <li><label><input type="checkbox" value="Bally Melancia 2lt"> Bally Melancia 2lt</label></li>
-            <li><label><input type="checkbox" value="Bally Tropical 2lt"> Bally Tropical 2lt</label></li>
-
-            <li><label><input type="checkbox" value="Coca lata"> Coca lata</label></li>
-            <li><label><input type="checkbox" value="Coca 2 litros"> Coca 2 litros</label></li>
-            <li><label><input type="checkbox" value="Coca zero Lata"> Coca zero Lata</label></li>
-            <li><label><input type="checkbox" value="Coca zero 2 lts"> Coca zero 2 lts</label></li>
-            <li><label><input type="checkbox" value="Guarana lata"> Guarana lata</label></li>
-            <li><label><input type="checkbox" value="Guarana 2 Lts"> Guarana 2 Lts</label></li>
-            <li><label><input type="checkbox" value="Sprite lata"> Sprite lata</label></li>
-            <li><label><input type="checkbox" value="Sprite 2 Lts"> Sprite 2 Lts</label></li>
-            <li><label><input type="checkbox" value="Fanta laranja lata"> Fanta laranja lata</label></li>
-            <li><label><input type="checkbox" value="Fanta Laranja 2 lts"> Fanta Laranja 2 lts</label></li>
-            <li><label><input type="checkbox" value="Tonica Lata"> Tonica Lata</label></li>
-            <li><label><input type="checkbox" value="Guaraviton"> Guaraviton</label></li>
-            <li><label><input type="checkbox" value="Gatorade"> Gatorade</label></li>
-            <li><label><input type="checkbox" value="H20 Limoneto"> H20 Limoneto</label></li>
-            <li><label><input type="checkbox" value="h20 tradicional"> h20 tradicional</label></li>
-            <li><label><input type="checkbox" value="Suco lata"> Suco lata</label></li>
-            <li><label><input type="checkbox" value="Suco 1Lt"> Suco 1Lt</label></li>
-            <li><label><input type="checkbox" value="Agua Pequena"> Agua Pequena</label></li>
-            <li><label><input type="checkbox" value="Agua 1,5 Lts"> Agua 1,5 Lts</label></li>
-
-            <li><label><input type="checkbox" value="Aperol"> Aperol</label></li>
-            <li><label><input type="checkbox" value="Campari"> Campari</label></li>
-            <li><label><input type="checkbox" value="White Horse"> White Horse</label></li>
-            <li><label><input type="checkbox" value="Jack Daniels"> Jack Daniels</label></li>
-            <li><label><input type="checkbox" value="Jack Daniels Honey"> Jack Daniels Honey</label></li>
-            <li><label><input type="checkbox" value="Jack Daniels Apple"> Jack Daniels Apple</label></li>
-            <li><label><input type="checkbox" value="Jack Daniels Fire"> Jack Daniels Fire</label></li>
-            <li><label><input type="checkbox" value="Ballantines"> Ballantines</label></li>
-            <li><label><input type="checkbox" value="Old Parr"> Old Parr</label></li>
-            <li><label><input type="checkbox" value="Chivas 12 Anos"> Chivas 12 Anos</label></li>
-            <li><label><input type="checkbox" value="Buchannas"> Buchannas</label></li>
-            <li><label><input type="checkbox" value="Black Label"> Black Label</label></li>
-            <li><label><input type="checkbox" value="Red Label"> Red Label</label></li>
-            <li><label><input type="checkbox" value="Gold Label"> Gold Label</label></li>
-            <li><label><input type="checkbox" value="Smirnoff 1lt"> Smirnoff 1lt</label></li>
-            <li><label><input type="checkbox" value="Ciroc Tradicional"> Ciroc Tradicional</label></li>
-            <li><label><input type="checkbox" value="Ciroc Vermelha"> Ciroc Vermelha</label></li>
-            <li><label><input type="checkbox" value="Absolut 1lt"> Absolut 1lt</label></li>
-            <li><label><input type="checkbox" value="Askov"> Askov</label></li>
-            <li><label><input type="checkbox" value="Askov Vermelha"> Askov Vermelha</label></li>
-            <li><label><input type="checkbox" value="Askov Limão"> Askov Limão</label></li>
-            <li><label><input type="checkbox" value="Askov Maracuja"> Askov Maracuja</label></li>
-            <li><label><input type="checkbox" value="Askov Frutas Roxas"> Askov Frutas Roxas</label></li>
-            <li><label><input type="checkbox" value="Fireball"> Fireball</label></li>
-            <li><label><input type="checkbox" value="Licor 43"> Licor 43</label></li>
-            <li><label><input type="checkbox" value="Licor 43 Chocolate"> Licor 43 Chocolate</label></li>
-            <li><label><input type="checkbox" value="Jose Cuervo Ouro"> Jose Cuervo Ouro</label></li>
-            <li><label><input type="checkbox" value="Jose Cuervo Prata"> Jose Cuervo Prata</label></li>
-            <li><label><input type="checkbox" value="Velho Barreiro"> Velho Barreiro</label></li>
-            <li><label><input type="checkbox" value="51"> 51</label></li>
-            <li><label><input type="checkbox" value="Pitu"> Pitu</label></li>
-            <li><label><input type="checkbox" value="Pitu Lata"> Pitu Lata</label></li>
-            <li><label><input type="checkbox" value="São Francisco"> São Francisco</label></li>
-            <li><label><input type="checkbox" value="Ipioca Ouro"> Ipioca Ouro</label></li>
-            <li><label><input type="checkbox" value="Seleta"> Seleta</label></li>
-            <li><label><input type="checkbox" value="Boazinha"> Boazinha</label></li>
-            <li><label><input type="checkbox" value="Salinas"> Salinas</label></li>
-            <li><label><input type="checkbox" value="Saquê"> Saquê</label></li>
-            <li><label><input type="checkbox" value="Corote Limão"> Corote Limão</label></li>
-            <li><label><input type="checkbox" value="Corote Puro"> Corote Puro</label></li>
-            <li><label><input type="checkbox" value="Suco Mid"> Suco Mid</label></li>
-            <li><label><input type="checkbox" value="Rocks"> Rocks</label></li>
-            <li><label><input type="checkbox" value="Eternity"> Eternity</label></li>
-            <li><label><input type="checkbox" value="Tanqueray"> Tanqueray</label></li>
-            <li><label><input type="checkbox" value="Beefeater"> Beefeater</label></li>
-            <li><label><input type="checkbox" value="Gordons"> Gordons</label></li>
-        </ul>
-    </div>
-
-    <div class="footer">
-        <button onclick="enviarWhatsApp()">Enviar Lista Faltante</button>
+    <div id="tela-lista" style="display: none;">
+        <div class="header">
+            <button onclick="voltar()" class="btn-voltar">← Voltar</button>
+            <h1 id="titulo-categoria">Categoria</h1>
+        </div>
+        <div class="container">
+            <ul id="lista-itens">
+                </ul>
+        </div>
+        <div class="footer">
+            <button onclick="enviarWhatsApp()" class="btn-enviar">Enviar Lista Faltante</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
