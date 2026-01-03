@@ -15,7 +15,7 @@ const bancoDeDados = {
         "Saco de Gelo", "Gelo de Coco", "Gelo de Maracujá", "Gelo de Melancia"
     ],
     "Utensilios": [
-        "Copo 700ml", "Copo Americano", "Pilha AAA", "Pilha AA", "Abridor de Vinho", "Moop", "Perfex", "Canudo", "Sacola Pequena", "Sacola Grande", "Detergente", "Alcool Gel", "Papel Higienico"
+        "Copo 700ml", "Copo Americano", "Pilha AAA", "Pilha AA", "Abridor de Vinho", "Moop", "Perfex", "Canudo", "Sacola Pequena", "Sacola Grande", "Detergente", "Alcool Gel", "Papel Higienico", "Bucha", "Pano de Chão"
     ],
     "Energeticos": [
         "Red Bull Tradicional", "Red bull Tropical", "Red bull Melancia", "Red Bull Zero", 
