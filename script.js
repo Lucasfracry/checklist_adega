@@ -59,7 +59,9 @@ const bancoDeDados = {
         "Nay Chiclete", "Nay Uva", "Nay Maracujá", "Nay 66", "Onix Danone", "Onix Menta", "Onix Banana com Açai", "Onix Pera"
     ],
     
-    "Vinhos": ["Itens de Vdddddqui..."],
+    "Vinhos": [
+        "Concha y Toro - Cabernet Sauvignon", "Concha y Toro - Merlot", "Concha y Toro - Malbec", "Concha y Toro - Sauvignon Blanc", "Concha y Toro - Rosé", "Concha y Toro Carmenere", "Concha y Toro - Sweet Red", "Concha y Toro - Sweet Rosé", "Casillero del Diablo - Cabernet Sauvignon", "Casillero del Diablo - Merlot", "Casilero del Diablo - Malbec", "Casilero del Diablo - Carmenere", "Casillero del Diablo - Sauvignon Blanc", "Casillero del Diablo - Rosé"
+    ],
     "Comidas": ["Suco Mid", "Outros itens..."]
 };
 
