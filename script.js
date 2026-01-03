@@ -45,7 +45,11 @@ const bancoDeDados = {
         "Seleta", "Boazinha", "Salinas"
     ],
     "Tabacaria": [
-        "Hash", "Sasso", "Amsterdan", "Hi Tobacco", "Acrema", "Rainbown"
+        "Hash", "Sasso", "Amsterdan", "Hi Tobacco", "Acrema", "Rainbown", "Smoking Grande Preta", 
+        "Smoking Grande Prata", "Smoking Grande Brown", "Smoking Pequena Brown", "Smoking Pequena Prata", "Smoking Pequena Preta", 
+        "Piteira Yellown Finger Roxa", "Piteira Yellow Finger Amarela", "Filtro Longo Slim", "Filtro Slim Curto", "Cuia", "Dichavador de madeira", "Charuto Titan", 
+        "Charuto Titan Chocolate", "Bic Grande", "Bic Pequeno", "Tabaco Bolado", "Santropez Tradicional", "Santropez Menta", "Paulistinha Tradicional", 
+        "Paulistinha Menta", "Gudang Garan", "Gudang Garan Menta"
     ],
     "Vinhos": ["Itens de Vdddddqui..."],
     "Comidas": ["Suco Mid", "Outros itens..."]
