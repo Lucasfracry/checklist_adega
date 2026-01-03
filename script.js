@@ -60,7 +60,7 @@ const bancoDeDados = {
     ],
     
     "Vinhos": [
-        "Concha y Toro - Cabernet Sauvignon", "Concha y Toro - Merlot", "Concha y Toro - Malbec", "Concha y Toro - Sauvignon Blanc", "Concha y Toro - Rosé", "Concha y Toro Carmenere", "Concha y Toro - Sweet Red", "Concha y Toro - Sweet Rosé", "Casillero del Diablo - Cabernet Sauvignon", "Casillero del Diablo - Merlot", "Casilero del Diablo - Malbec", "Casilero del Diablo - Carmenere", "Casillero del Diablo - Sauvignon Blanc", "Casillero del Diablo - Rosé"
+        "Concha y Toro - Cabernet Sauvignon", "Concha y Toro - Merlot", "Concha y Toro - Malbec", "Concha y Toro - Sauvignon Blanc", "Concha y Toro - Rosé", "Concha y Toro Carmenere", "Concha y Toro - Sweet Red", "Concha y Toro - Sweet Rosé", "Casillero del Diablo - Cabernet Sauvignon", "Casillero del Diablo - Merlot", "Casilero del Diablo - Malbec", "Casilero del Diablo - Carmenere", "Casillero del Diablo - Sauvignon Blanc", "Casillero del Diablo - Rosé", "Casal Garcia - Sweet Branco", "Casal Garcia - Vinho Verde", "Casal Garcia - Vinho Tinto", "Casal Garcia - Vinho Rosé", "Casal Garcia - Sweet Red", "Atlantico Branco", "Pérgola", "Sangue de Boi", "Lunae Rosé", "Lunae Branco", "Chilano - Cabernet Sauvignon", "Chilano - Malbec", "Chilano - Sauvignon Blanc", "Chilano - Carmenere", "Chilano - Merlot", "Santa Loreto - Cabernet Sauvignon", "Santa Loreto - Rosé", "Santa Loreto - Sauvignon Blanc", "Quinta do Morgado", "Salton - Brut", "Salton - Demi Sec", "Salton - Moscatel", "Chandon - Brut Rosé", "Chandon - Brut", "Chandon - Moscatel", "Santa Helena - Cabernet Sauvignon", "Santa Helena - Merlot", "Santa Helena - Malbec", "Santa Helena - Sauvignon Blanc", "Santa Helena - Carmenere"
     ],
     "Comidas": ["Suco Mid", "Outros itens..."]
 };
