@@ -44,7 +44,9 @@ const bancoDeDados = {
         "Velho Barreiro", "51", "Pitu", "Pitu Lata", "São Francisco", "Ipioca Ouro", 
         "Seleta", "Boazinha", "Salinas"
     ],
-    "Tabacaria": ["Hash", "Sasso", "Amsterdan", "Hi Tobacco", "Acrema", "Rainbown"],
+    "Tabacaria": [
+        "Hash", "Sasso", "Amsterdan", "Hi Tobacco", "Acrema", "Rainbown"
+    ],
     "Vinhos": ["Itens de Vdddddqui..."],
     "Comidas": ["Suco Mid", "Outros itens..."]
 };
