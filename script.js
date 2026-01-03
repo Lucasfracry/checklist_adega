@@ -9,13 +9,13 @@ const bancoDeDados = {
         "Corona 600ml", "Imperio 600ml", "Brahma Duplo 600ml"
     ],
     "Bebidas Mistas": [
-        "Skol Beats Senses", "Skol Beats GT", "Skol Beats Vermelha", "Smirnoff Ice", "Draft", "Corote Limão", "Corote Puro"
+        "Skol Beats Senses", "Skol Beats GT", "Skol Beats Vermelha", "Smirnoff Ice", "Draft", "Corote Limão", "Corote Puro", "Suco Mid"
     ],
     "Gelos": [
         "Saco de Gelo", "Gelo de Coco", "Gelo de Maracujá", "Gelo de Melancia"
     ],
     "Utensilios": [
-        "Copo 700ml", "Copo Americano"
+        "Copo 700ml", "Copo Americano", "Pilha AAA", "Pilha AA", "Abridor de Vinho", "Moop", "Perfex", "Canudo", "Sacola Pequena", "Sacola Grande", "Detergente", "Alcool Gel", "Papel Higienico"
     ],
     "Energeticos": [
         "Red Bull Tradicional", "Red bull Tropical", "Red bull Melancia", "Red Bull Zero", 
@@ -60,9 +60,11 @@ const bancoDeDados = {
     ],
     
     "Vinhos": [
-        "Concha y Toro - Cabernet Sauvignon", "Concha y Toro - Merlot", "Concha y Toro - Malbec", "Concha y Toro - Sauvignon Blanc", "Concha y Toro - Rosé", "Concha y Toro Carmenere", "Concha y Toro - Sweet Red", "Concha y Toro - Sweet Rosé", "Casillero del Diablo - Cabernet Sauvignon", "Casillero del Diablo - Merlot", "Casilero del Diablo - Malbec", "Casilero del Diablo - Carmenere", "Casillero del Diablo - Sauvignon Blanc", "Casillero del Diablo - Rosé", "Casal Garcia - Sweet Branco", "Casal Garcia - Vinho Verde", "Casal Garcia - Vinho Tinto", "Casal Garcia - Vinho Rosé", "Casal Garcia - Sweet Red", "Atlantico Branco", "Pérgola", "Sangue de Boi", "Lunae Rosé", "Lunae Branco", "Chilano - Cabernet Sauvignon", "Chilano - Malbec", "Chilano - Sauvignon Blanc", "Chilano - Carmenere", "Chilano - Merlot", "Santa Loreto - Cabernet Sauvignon", "Santa Loreto - Rosé", "Santa Loreto - Sauvignon Blanc", "Quinta do Morgado", "Salton - Brut", "Salton - Demi Sec", "Salton - Moscatel", "Chandon - Brut Rosé", "Chandon - Brut", "Chandon - Moscatel", "Santa Helena - Cabernet Sauvignon", "Santa Helena - Merlot", "Santa Helena - Malbec", "Santa Helena - Sauvignon Blanc", "Santa Helena - Carmenere", "Gato Negro - Malbec", "Gato Negro - Merlot", "Gato Negro - Cabernet Sauvignon", "Gato Negro - Sauvignon Blanc", "Gato Negro - Carmenere", "Santa Carolina - Cabernet Sauvignon", 
+        "Concha y Toro - Cabernet Sauvignon", "Concha y Toro - Merlot", "Concha y Toro - Malbec", "Concha y Toro - Sauvignon Blanc", "Concha y Toro - Rosé", "Concha y Toro Carmenere", "Concha y Toro - Sweet Red", "Concha y Toro - Sweet Rosé", "Casillero del Diablo - Cabernet Sauvignon", "Casillero del Diablo - Merlot", "Casilero del Diablo - Malbec", "Casilero del Diablo - Carmenere", "Casillero del Diablo - Sauvignon Blanc", "Casillero del Diablo - Rosé", "Casal Garcia - Sweet Branco", "Casal Garcia - Vinho Verde", "Casal Garcia - Vinho Tinto", "Casal Garcia - Vinho Rosé", "Casal Garcia - Sweet Red", "Atlantico Branco", "Pérgola", "Sangue de Boi", "Lunae Rosé", "Lunae Branco", "Chilano - Cabernet Sauvignon", "Chilano - Malbec", "Chilano - Sauvignon Blanc", "Chilano - Carmenere", "Chilano - Merlot", "Santa Loreto - Cabernet Sauvignon", "Santa Loreto - Rosé", "Santa Loreto - Sauvignon Blanc", "Quinta do Morgado", "Salton - Brut", "Salton - Demi Sec", "Salton - Moscatel", "Chandon - Brut Rosé", "Chandon - Brut", "Chandon - Moscatel", "Santa Helena - Cabernet Sauvignon", "Santa Helena - Merlot", "Santa Helena - Malbec", "Santa Helena - Sauvignon Blanc", "Santa Helena - Carmenere", "Gato Negro - Malbec", "Gato Negro - Merlot", "Gato Negro - Cabernet Sauvignon", "Gato Negro - Sauvignon Blanc", "Gato Negro - Carmenere", "Santa Carolina - Cabernet Sauvignon", "Santa Carolina - Merlot", "Santa Carolina - Malbec", "Santa Carolina - Sauvignon Blanc", "Santa Carolina - Carmenere"
     ],
-    "Comidas": ["Suco Mid", "Outros itens..."]
+    "Comidas": [
+        "Torcida", "Fofura", "Pringles", "Ruffles", "Bacon", "Trident", "Halls"
+    ]
 };
 
 function abrirLista(categoria) {
