@@ -54,8 +54,9 @@ const bancoDeDados = {
 
     "Essencias": [
         "Ziggy Uva", "Ziggy Menta", "Ziggy Tropical", "Ziggy Chiclete", "Ziggy 7 Belo", "Ziggy Banana", "Ziggy Frutas Roxas", "Ziggy Frutas Amarelas",
-        "Ziggy Limão", "Ziggy Yogurt", "Ziggy Cereja", "Ziggy Duas Maçãs", "Ziggy Duas Goiabas", "Ziggy Maracujá", "Ziggy Melancia", "Carvão 500g", "Carvão 250g", 
-        "Carvão 1 Kg", "Pct Aluminio c/25 folhas", "Pct Aluminio c/50 folhas", "Zomo Mint", "Zomo Miami Nights", "Zomo Uva", "Zomo Limão", "Nay Cereja", "Nay Melão", 
+        "Ziggy Limão", "Ziggy Yogurt", "Ziggy Cereja", "Ziggy Duas Maçãs", "Ziggy Duas Goiabas", "Ziggy Maracujá", "Ziggy Frutas Verdes", "Ziggy Sakamoto",
+        "Ziggy Melancia", "Ziggy Morango com Laranja", "Ziggy Manga Tropical", "Ziggy Açai ", "Carvão 500g", "Carvão 250g", 
+        "Carvão 1 Kg", "Pct Aluminio c/25 folhas", "Pct Aluminio c/50 folhas", "Zomo Mint", "Zomo StrongMint", "Zomo Miami Nights", "Zomo Uva", "Zomo Limão", "Nay Cereja", "Nay Melão", 
         "Nay Chiclete", "Nay Uva", "Nay Maracujá", "Nay 66", "Onix Danone", "Onix Menta", "Onix Banana com Açai", "Onix Pera"
     ],
     
